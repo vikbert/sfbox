@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block title %}List of Posts{% endblock %}
+
+{% block body %}
+    <form action="{{ path('login') }}">
+        <input type="email" name="email" placeholder="enter your email">
+        <input type="password" name="password" placeholder="enter your password">
+        <input type="text" value="hello" hidden>
+        <input type="submit" value="login">
+    </form>
+{% endblock %}
