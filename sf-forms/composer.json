@@ -16,6 +16,7 @@
     },
     "require-dev": {
         "sensio/framework-extra-bundle": "^5.2",
+        "symfony/debug-pack": "^1.0",
         "symfony/dotenv": "4.1.*",
         "symfony/maker-bundle": "^1.9"
     },

@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+    create a new article
+{% endblock %}
+
+
+{% block body %}
+    <div class="example-wrapper">
+        <h1>new article! ✅</h1>
+        {{ form_start(articleForm) }}
+            {{ form_widget(articleForm) }}
+            <button type="submit" class="btn btn-button btn-primary">create</button>
+        {{ form_end(articleForm) }}
+    </div>
+{% endblock %}
+
+
+
