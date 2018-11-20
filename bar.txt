@@ -1,3 +1,5 @@
 this is bar
 
 second line
+
+update bar 1
