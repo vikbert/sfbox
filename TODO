@@ -1,0 +1,13 @@
+
+Todo:
+  CSRF token in symfony:
+    ☐ create sf4 project
+    ☐ create self generated token in twig
+    ☐ create token in controller
+    ☐ use csrf token in form
+  Symfony Form best practice:
+    ☐ read the form documentation
+    ☐ make a try with help of form documentation
+  Twig extension:
+    ☐ where and when to use twig extension
+    ☐ create a twig extension to format the date
